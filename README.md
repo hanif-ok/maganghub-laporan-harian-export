@@ -44,12 +44,19 @@ Chrome memerlukan **Developer Mode** diaktifkan agar ekstensi seperti Tampermonk
 
 ### 3. Install Userscript
 
+**Cara termudah — via GreasyFork:**
+
+1. Buka halaman script di GreasyFork: [MagangHub Daily Log Exporter](https://greasyfork.org/en/scripts/573312-maganghub-daily-log-exporter)
+2. Klik tombol hijau **Install this script**
+3. Tampermonkey akan membuka tab konfirmasi — klik **Install**
+4. Selesai, script langsung aktif
+
+**Cara manual — dari file `.user.js`:**
+
 1. Klik ikon Tampermonkey di browser, lalu pilih **Create a new script** (atau **Dashboard > +**)
 2. Hapus semua isi default, lalu **salin seluruh isi file** `MagangHub Daily Log Exporter-1.2.0.user.js`
 3. Paste ke editor Tampermonkey
 4. Tekan **Ctrl+S** atau klik **File > Save**
-
-Alternatif: Jika file `.user.js` diakses langsung melalui browser (drag & drop atau buka file), Tampermonkey akan otomatis mendeteksi dan menawarkan dialog instalasi.
 
 ---
 
