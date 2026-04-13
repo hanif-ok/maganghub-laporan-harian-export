@@ -42,7 +42,20 @@ Chrome memerlukan **Developer Mode** diaktifkan agar ekstensi seperti Tampermonk
 
 > **Catatan:** Tanpa Developer mode, Chrome mungkin memblokir ekstensi pihak ketiga termasuk Tampermonkey.
 
-### 3. Install Userscript
+### 3. Aktifkan Userscript di Tampermonkey
+
+Setelah ekstensi terinstall, pastikan userscript diizinkan berjalan:
+
+1. Klik ikon Tampermonkey di toolbar browser
+2. Pastikan toggle utama di bagian atas popup dalam posisi **Enabled** (biru/aktif)
+3. Klik **Dashboard**, lalu buka tab **Settings**
+4. Pada bagian **Config mode**, ubah ke **Advanced**
+5. Pastikan opsi **Script update** dan **Userscript execution** tidak dinonaktifkan
+6. Simpan dengan klik **Save**
+
+> **Catatan:** Jika ikon Tampermonkey tampak abu-abu atau ada tanda seru, kemungkinan userscript sedang dinonaktifkan secara global — cukup klik ikonnya dan aktifkan toggle-nya.
+
+### 4. Install Userscript
 
 **Cara termudah — via GreasyFork:**
 
@@ -92,7 +105,7 @@ Buka DevTools (F12) > tab **Application** > **Cookies** atau **Local Storage**, 
 Pastikan kamu sudah login dan sesi aktif. Coba refresh halaman lalu buka panel kembali.
 
 **Tampermonkey tidak aktif di Chrome**
-Pastikan Developer mode sudah diaktifkan (lihat langkah 2 di atas).
+Pastikan Developer mode sudah diaktifkan (langkah 2) dan userscript sudah di-enable di dalam addon Tampermonkey (langkah 3).
 
 ---
 
